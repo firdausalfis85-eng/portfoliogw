@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio & Biodata Raska Zaidan Firas Alfis Firdaus — Pro Player &amp; Creative Editor" />
+    <meta name="keywords" content="portfolio, biodata, developer, Pro Player &amp; Creative Editor, Raska Zaidan Firas Alfis Firdaus" />
+    <meta name="author" content="Raska Zaidan Firas Alfis Firdaus" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Raska Zaidan Firas Alfis Firdaus | Portfolio" />
+    <meta property="og:description" content="Pro Player Mobile Legends, Video &amp; Image Editor, Digital Artist" />
+    <meta property="og:type" content="website" />
+
+    <title>Raska Zaidan Firas Alfis Firdaus | Pro Player &amp; Creative Editor</title>
+
+    <!-- Google Fonts: Plus Jakarta Sans + Outfit + Fira Code -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+
+    <!-- Stylesheet Utama -->
+    <link rel="stylesheet" href="assets/css/style.css?v=1788224205" />
+
+    <!-- Favicon inline SVG -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><defs><linearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'><stop offset='0%25' style='stop-color:%237F00FF'/><stop offset='100%25' style='stop-color:%2300f2fe'/></linearGradient></defs><rect width='100' height='100' rx='20' fill='url(%23g)'/><text y='.9em' font-size='70' x='15' fill='white' font-family='Arial'>P</text></svg>" />
+</head>
+<body>
+
+    <!-- ══════════════ CUSTOM CURSOR ══════════════ -->
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+
+    <!-- ══════════════ BACKGROUND ORBS ══════════════ -->
+    <div class="bg-orbs" aria-hidden="true">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+        <div class="orb orb-4"></div>
+    </div>
+
+    <!-- ══════════════ NAVBAR ══════════════ -->
+    <nav class="navbar" id="navbar" role="navigation" aria-label="Navigasi Utama">
+        <div class="nav-container">
+            <!-- Logo -->
+            <a href="#hero" class="nav-logo" aria-label="Kembali ke atas">
+                <span class="logo-bracket">&lt;</span>
+                <span class="logo-text">RASKA</span>
+                <span class="logo-bracket">/&gt;</span>
+            </a>
+
+            <!-- Nav Links -->
+            <ul class="nav-links" id="navLinks" role="list">
+                <li><a href="#about"    class="nav-link" data-section="about">About</a></li>
+                <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+                <li><a href="#skills"   class="nav-link" data-section="skills">Skills</a></li>
+                <li><a href="#contact"  class="nav-link" data-section="contact">Contact</a></li>
+            </ul>
+
+            <!-- CTA Nav -->
+            <a href="mailto:firdausalfis85@gmail.com" class="nav-cta" aria-label="Kirim email">
+                <span>Hire Me</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+
+            <!-- Hamburger Mobile -->
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ══════════════ MAIN CONTENT ══════════════ -->
+    <main id="main-content">
+
+<!-- ╔══════════════════════════════════════════════════════╗
+     ║  SECTION 1 — HERO                                    ║
+     ╚══════════════════════════════════════════════════════╝ -->
+<section class="hero-section" id="hero" aria-label="Hero Section">
+
+    <!-- Particle dots background -->
+    <div class="hero-particles" id="heroParticles" aria-hidden="true"></div>
+
+    <div class="hero-container">
+
+        <!-- Kolom Teks -->
+        <div class="hero-content fade-in-up" data-delay="0">
+
+            <div class="hero-badge">
+                <span class="badge-dot pulse"></span>
+                <span>Available for Work</span>
+            </div>
+
+            <h1 class="hero-title">
+                <span class="hero-greeting">Halo, Saya</span>
+                <span class="hero-name gradient-text animated-gradient" id="heroName">
+                    Raska Zaidan Firas Alfis Firdaus                </span>
+            </h1>
+
+            <p class="hero-tagline">
+                <span class="typing-text" id="typingText" aria-live="polite"></span>
+                <span class="typing-cursor" aria-hidden="true">|</span>
+            </p>
+
+            <p class="hero-bio">Seorang Pro Player Mobile Legends (EXP Laner &amp; Roamer di tim GLORIOUS ESPORT) sekaligus Creative Editor &amp; Digital Artist yang terbiasa membuat cinematic gaming montage, editing foto/gambar, ilustrasi menggambar, serta pembuatan konten digital kreatif.</p>
+
+            <!-- CTA Buttons -->
+            <div class="hero-cta-group">
+                <a href="#projects" class="btn btn-primary" aria-label="Lihat Proyek">
+                    <span>Lihat Proyek</span>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+                <a href="mailto:firdausalfis85@gmail.com" class="btn btn-outline" aria-label="Kontak Saya">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
+                    <span>Hubungi Saya</span>
+                </a>
+            </div>
+
+            <!-- Quick Stats -->
+            <div class="hero-stats">
+                                    <div class="hero-stat">
+                        <span class="stat-icon">🏆</span>
+                        <span class="stat-value gradient-text">100+</span>
+                        <span class="stat-label">Match Menang</span>
+                    </div>
+                                    <div class="hero-stat">
+                        <span class="stat-icon">🎬</span>
+                        <span class="stat-value gradient-text">50+</span>
+                        <span class="stat-label">Video &amp; Desain</span>
+                    </div>
+                                    <div class="hero-stat">
+                        <span class="stat-icon">⚡</span>
+                        <span class="stat-value gradient-text">95%</span>
+                        <span class="stat-label">Winrate Gameplay</span>
+                    </div>
+                                    <div class="hero-stat">
+                        <span class="stat-icon">💡</span>
+                        <span class="stat-value gradient-text">100%</span>
+                        <span class="stat-label">Kreativitas</span>
+                    </div>
+                            </div>
+
+        </div><!-- /.hero-content -->
+
+        <!-- Kolom Avatar -->
+        <div class="hero-avatar-wrap fade-in-up" data-delay="200">
+            <div class="avatar-container" aria-hidden="true">
+                <!-- Ring hias animasi -->
+                <div class="avatar-ring ring-1"></div>
+                <div class="avatar-ring ring-2"></div>
+                <div class="avatar-ring ring-3"></div>
+
+                <!-- Avatar Utama -->
+                <div class="avatar-img-wrap">
+                                            <img src="images/lutpii.jpeg"
+                             alt="Foto profil Raska Zaidan Firas Alfis Firdaus"
+                             class="avatar-img"
+                             loading="eager" />
+                                    </div><!-- /.avatar-img-wrap -->
+
+                <!-- Badge floating teknologi -->
+                <div class="avatar-badge badge-top-right floating-badge" aria-hidden="true">
+                    <span>🎮 MLBB Pro</span>
+                </div>
+                <div class="avatar-badge badge-bottom-left floating-badge" aria-hidden="true">
+                    <span>🎬 Video Editor</span>
+                </div>
+                <div class="avatar-badge badge-top-left floating-badge" aria-hidden="true">
+                    <span>🎨 Digital Art</span>
+                </div>
+            </div><!-- /.avatar-container -->
+        </div><!-- /.hero-avatar-wrap -->
+
+    </div><!-- /.hero-container -->
+
+    <!-- Scroll indicator -->
+    <div class="scroll-indicator" aria-hidden="true">
+        <div class="scroll-mouse">
+            <div class="scroll-wheel"></div>
+        </div>
+        <span class="scroll-text">Scroll Down</span>
+    </div>
+
+</section><!-- /#hero -->
+
+
+<!-- ╔══════════════════════════════════════════════════════╗
+     ║  SECTION 2 — ABOUT & BIO                             ║
+     ╚══════════════════════════════════════════════════════╝ -->
+<section class="about-section" id="about" aria-label="Tentang Saya">
+    <div class="section-container">
+
+        <!-- Section Header -->
+        <div class="section-header fade-in-up">
+            <span class="section-tag">// Tentang Saya</span>
+            <h2 class="section-title">Siapa <span class="gradient-text">Saya?</span></h2>
+            <p class="section-subtitle">Kenali lebih dekat tentang perjalanan dan passion saya.</p>
+        </div>
+
+        <div class="about-grid">
+
+            <!-- Bio Card -->
+            <div class="glass-card about-bio-card fade-in-left">
+                <div class="card-glow" style="--glow-color: #7F00FF;" aria-hidden="true"></div>
+                <h3 class="card-title">
+                    <span class="card-icon">👋</span> Bio Singkat
+                </h3>
+                <p class="about-bio-text">Seorang Pro Player Mobile Legends (EXP Laner &amp; Roamer di tim GLORIOUS ESPORT) sekaligus Creative Editor &amp; Digital Artist yang terbiasa membuat cinematic gaming montage, editing foto/gambar, ilustrasi menggambar, serta pembuatan konten digital kreatif.</p>
+
+                <!-- Data Diri Grid -->
+                <div class="bio-details-grid">
+                    <div class="bio-detail-item">
+                        <span class="bio-detail-icon">📍</span>
+                        <div>
+                            <span class="bio-detail-label">Lokasi</span>
+                            <span class="bio-detail-value">Kediri, Jawa Timur, Indonesia</span>
+                        </div>
+                    </div>
+                    <div class="bio-detail-item">
+                        <span class="bio-detail-icon">🎂</span>
+                        <div>
+                            <span class="bio-detail-label">Tempat & Tgl Lahir</span>
+                            <span class="bio-detail-value">Kediri, 21 Mei 2011</span>
+                        </div>
+                    </div>
+                    <div class="bio-detail-item">
+                        <span class="bio-detail-icon">🎓</span>
+                        <div>
+                            <span class="bio-detail-label">Sekolah</span>
+                            <span class="bio-detail-value">SMP Islam Plus Al-Imam — Teknologi &amp; Multimedia</span>
+                        </div>
+                    </div>
+                    <div class="bio-detail-item">
+                        <span class="bio-detail-icon">💼</span>
+                        <div>
+                            <span class="bio-detail-label">Keahlian Utama</span>
+                            <span class="bio-detail-value">Pro Player (EXP Laner/Roamer) &amp; Creative Editor</span>
+                        </div>
+                    </div>
+                    <div class="bio-detail-item">
+                        <span class="bio-detail-icon">🌐</span>
+                        <div>
+                            <span class="bio-detail-label">Bahasa</span>
+                            <span class="bio-detail-value">Indonesia, English</span>
+                        </div>
+                    </div>
+                    <div class="bio-detail-item">
+                        <span class="bio-detail-icon">✉️</span>
+                        <div>
+                            <span class="bio-detail-label">Email</span>
+                            <span class="bio-detail-value">
+                                <a href="mailto:firdausalfis85@gmail.com" class="inline-link">
+                                    firdausalfis85@gmail.com                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact CTA Button -->
+                <a href="#contact" class="btn btn-primary btn-sm" style="margin-top:1.5rem;" aria-label="Hubungi Saya">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
+                    <span>Hubungi Saya</span>
+                </a>
+            </div><!-- /.about-bio-card -->
+
+            <!-- Right Column -->
+            <div class="about-right fade-in-right">
+
+                <!-- Pengalaman Kerja -->
+                <div class="glass-card experience-card">
+                    <div class="card-glow" style="--glow-color: #00f2fe;" aria-hidden="true"></div>
+                    <h3 class="card-title">
+                        <span class="card-icon">💼</span> Pengalaman & Aktivitas
+                    </h3>
+                    <div class="timeline">
+                                                    <div class="timeline-item">
+                                <div class="timeline-dot" aria-hidden="true"></div>
+                                                                    <div class="timeline-line" aria-hidden="true"></div>
+                                                                <div class="timeline-content">
+                                    <div class="timeline-header">
+                                        <span class="timeline-position">Pro Player (EXP Laner &amp; Roamer)</span>
+                                        <span class="timeline-period">2024 – Sekarang</span>
+                                    </div>
+                                    <span class="timeline-company">GLORIOUS BY HAVING GREAT ESPORT</span>
+                                    <p class="timeline-desc">Fokus pada turnamen kompetitif MLBB, penyusunan strategi tim, drafting hero, rotasi map, dan eksekusi teamfight.</p>
+                                </div>
+                            </div>
+                                                    <div class="timeline-item">
+                                <div class="timeline-dot" aria-hidden="true"></div>
+                                                                <div class="timeline-content">
+                                    <div class="timeline-header">
+                                        <span class="timeline-position">Video Editor &amp; Graphic Designer</span>
+                                        <span class="timeline-period">2023 – Sekarang</span>
+                                    </div>
+                                    <span class="timeline-company">Creative Content &amp; Projects</span>
+                                    <p class="timeline-desc">Mengerjakan editing video montage gameplay, desain visual promosi, thumbnail, dan karya seni ilustrasi.</p>
+                                </div>
+                            </div>
+                                            </div>
+                </div><!-- /.experience-card -->
+
+                <!-- Stats Grid -->
+                <div class="stats-grid">
+                                            <div class="glass-card stat-card fade-in-up">
+                            <span class="stat-card-icon">🏆</span>
+                            <span class="stat-card-value gradient-text">100+</span>
+                            <span class="stat-card-label">Match Menang</span>
+                        </div>
+                                            <div class="glass-card stat-card fade-in-up">
+                            <span class="stat-card-icon">🎬</span>
+                            <span class="stat-card-value gradient-text">50+</span>
+                            <span class="stat-card-label">Video &amp; Desain</span>
+                        </div>
+                                            <div class="glass-card stat-card fade-in-up">
+                            <span class="stat-card-icon">⚡</span>
+                            <span class="stat-card-value gradient-text">95%</span>
+                            <span class="stat-card-label">Winrate Gameplay</span>
+                        </div>
+                                            <div class="glass-card stat-card fade-in-up">
+                            <span class="stat-card-icon">💡</span>
+                            <span class="stat-card-value gradient-text">100%</span>
+                            <span class="stat-card-label">Kreativitas</span>
+                        </div>
+                                    </div><!-- /.stats-grid -->
+
+            </div><!-- /.about-right -->
+
+        </div><!-- /.about-grid -->
+    </div><!-- /.section-container -->
+</section><!-- /#about -->
+
+
+<!-- ╔══════════════════════════════════════════════════════╗
+     ║  SECTION 3 — PROJECTS / EXPERIENCE                   ║
+     ╚══════════════════════════════════════════════════════╝ -->
+<section class="projects-section" id="projects" aria-label="Proyek dan Portofolio">
+    <div class="section-container">
+
+        <!-- Section Header -->
+        <div class="section-header fade-in-up">
+            <span class="section-tag">// Portofolio & Karya</span>
+            <h2 class="section-title">Karya & <span class="gradient-text">Proyek</span></h2>
+            <p class="section-subtitle">Koleksi pencapaian esports, video editing, desain gambar, dan karya seni menggambar.</p>
+        </div>
+
+                <!-- Project Filter Tabs -->
+        <div class="project-filters fade-in-up" role="tablist" aria-label="Filter Proyek">
+            <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">Semua</button>
+                            <button class="filter-btn" data-filter="ESPORT" role="tab" aria-selected="false">ESPORT</button>
+                            <button class="filter-btn" data-filter="VIDEO EDITING" role="tab" aria-selected="false">VIDEO EDITING</button>
+                            <button class="filter-btn" data-filter="IMAGE EDITING" role="tab" aria-selected="false">IMAGE EDITING</button>
+                            <button class="filter-btn" data-filter="DRAWING / ART" role="tab" aria-selected="false">DRAWING / ART</button>
+                    </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid" id="projectsGrid">
+                            <article class="project-card glass-card fade-in-up tilt-card"
+                         data-delay="0"
+                         data-category="ESPORT"
+                         aria-label="Proyek: Pro Player Mobile Legends (EXP &amp; Roam)">
+
+                    <!-- Gradient Header -->
+                    <div class="project-card-header" style="background: linear-gradient(135deg, #00f2fe, #4facfe);" aria-hidden="true">
+                        <span class="project-icon">🎮</span>
+                        <div class="project-header-glow" aria-hidden="true"></div>
+                    </div>
+
+                    <div class="project-card-body">
+                        <!-- Meta -->
+                        <div class="project-meta">
+                            <span class="project-category">ESPORT</span>
+                            <span class="project-year">2025</span>
+                        </div>
+
+                        <h3 class="project-title">Pro Player Mobile Legends (EXP &amp; Roam)</h3>
+                        <p class="project-desc">Bermain kompetitif sebagai EXP Laner &amp; Roamer di tim GLORIOUS BY HAVING GREAT ESPORT. Berpengalaman dalam strategi makro tim, penguasaan lane, inisiasi war, dan konsisten memenangkan pertandingan turnamen.</p>
+
+                        <!-- Tech Stack Tags -->
+                        <div class="project-tech-stack" aria-label="Tags keahlian">
+                                                            <span class="tech-pill">Mobile Legends</span>
+                                                            <span class="tech-pill">EXP Laner</span>
+                                                            <span class="tech-pill">Roamer</span>
+                                                            <span class="tech-pill">Team Glorious</span>
+                                                    </div>
+
+                        <!-- Action Links -->
+                        <div class="project-actions">
+                                                                                        <span class="btn btn-sm btn-outline" style="border-color: rgba(255,255,255,0.15); color: var(--text-secondary);">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                                    Aktif & Berkarya
+                                </span>
+                                                    </div>
+
+                    </div><!-- /.project-card-body -->
+                </article>
+                            <article class="project-card glass-card fade-in-up tilt-card"
+                         data-delay="100"
+                         data-category="VIDEO EDITING"
+                         aria-label="Proyek: Cinematic Video Editing &amp; Gaming Montage">
+
+                    <!-- Gradient Header -->
+                    <div class="project-card-header" style="background: linear-gradient(135deg, #7F00FF, #E100FF);" aria-hidden="true">
+                        <span class="project-icon">🎬</span>
+                        <div class="project-header-glow" aria-hidden="true"></div>
+                    </div>
+
+                    <div class="project-card-body">
+                        <!-- Meta -->
+                        <div class="project-meta">
+                            <span class="project-category">VIDEO EDITING</span>
+                            <span class="project-year">2024</span>
+                        </div>
+
+                        <h3 class="project-title">Cinematic Video Editing &amp; Gaming Montage</h3>
+                        <p class="project-desc">Produksi video highlight dan cinematic montage gameplay dengan sinkronisasi beat musik yang presisi, efek transisi dinamis, color grading, dan sound effects untuk konten YouTube/TikTok.</p>
+
+                        <!-- Tech Stack Tags -->
+                        <div class="project-tech-stack" aria-label="Tags keahlian">
+                                                            <span class="tech-pill">CapCut</span>
+                                                            <span class="tech-pill">Premiere Pro</span>
+                                                            <span class="tech-pill">After Effects</span>
+                                                            <span class="tech-pill">Sound Sync</span>
+                                                    </div>
+
+                        <!-- Action Links -->
+                        <div class="project-actions">
+                                                                                        <span class="btn btn-sm btn-outline" style="border-color: rgba(255,255,255,0.15); color: var(--text-secondary);">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                                    Aktif & Berkarya
+                                </span>
+                                                    </div>
+
+                    </div><!-- /.project-card-body -->
+                </article>
+                            <article class="project-card glass-card fade-in-up tilt-card"
+                         data-delay="200"
+                         data-category="IMAGE EDITING"
+                         aria-label="Proyek: Editing Gambar &amp; Desain Grafis Kreatif">
+
+                    <!-- Gradient Header -->
+                    <div class="project-card-header" style="background: linear-gradient(135deg, #ff0844, #ffb199);" aria-hidden="true">
+                        <span class="project-icon">🖼️</span>
+                        <div class="project-header-glow" aria-hidden="true"></div>
+                    </div>
+
+                    <div class="project-card-body">
+                        <!-- Meta -->
+                        <div class="project-meta">
+                            <span class="project-category">IMAGE EDITING</span>
+                            <span class="project-year">2024</span>
+                        </div>
+
+                        <h3 class="project-title">Editing Gambar &amp; Desain Grafis Kreatif</h3>
+                        <p class="project-desc">Pembuatan desain visual berkualitas tinggi mulai dari thumbnail gaming berdaya klik tinggi, poster turnamen esports, banner profil media sosial, dan manipulasi foto.</p>
+
+                        <!-- Tech Stack Tags -->
+                        <div class="project-tech-stack" aria-label="Tags keahlian">
+                                                            <span class="tech-pill">Photoshop</span>
+                                                            <span class="tech-pill">Canva</span>
+                                                            <span class="tech-pill">Poster Design</span>
+                                                            <span class="tech-pill">Photo Manipulation</span>
+                                                    </div>
+
+                        <!-- Action Links -->
+                        <div class="project-actions">
+                                                                                        <span class="btn btn-sm btn-outline" style="border-color: rgba(255,255,255,0.15); color: var(--text-secondary);">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                                    Aktif & Berkarya
+                                </span>
+                                                    </div>
+
+                    </div><!-- /.project-card-body -->
+                </article>
+                            <article class="project-card glass-card fade-in-up tilt-card"
+                         data-delay="300"
+                         data-category="DRAWING / ART"
+                         aria-label="Proyek: Ilustrasi &amp; Menggambar Digital Art">
+
+                    <!-- Gradient Header -->
+                    <div class="project-card-header" style="background: linear-gradient(135deg, #f7971e, #ffd200);" aria-hidden="true">
+                        <span class="project-icon">🎨</span>
+                        <div class="project-header-glow" aria-hidden="true"></div>
+                    </div>
+
+                    <div class="project-card-body">
+                        <!-- Meta -->
+                        <div class="project-meta">
+                            <span class="project-category">DRAWING / ART</span>
+                            <span class="project-year">2024</span>
+                        </div>
+
+                        <h3 class="project-title">Ilustrasi &amp; Menggambar Digital Art</h3>
+                        <p class="project-desc">Koleksi karya seni menggambar sketsa karakter, fanart hero game, konsep desain visual, dan ilustrasi digital menggunakan teknik pewarnaan modern.</p>
+
+                        <!-- Tech Stack Tags -->
+                        <div class="project-tech-stack" aria-label="Tags keahlian">
+                                                            <span class="tech-pill">Digital Drawing</span>
+                                                            <span class="tech-pill">Ibis Paint X</span>
+                                                            <span class="tech-pill">Character Art</span>
+                                                            <span class="tech-pill">Sketsa</span>
+                                                    </div>
+
+                        <!-- Action Links -->
+                        <div class="project-actions">
+                                                                                        <span class="btn btn-sm btn-outline" style="border-color: rgba(255,255,255,0.15); color: var(--text-secondary);">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                                    Aktif & Berkarya
+                                </span>
+                                                    </div>
+
+                    </div><!-- /.project-card-body -->
+                </article>
+                    </div><!-- /.projects-grid -->
+
+    </div><!-- /.section-container -->
+</section><!-- /#projects -->
+
+
+<!-- ╔══════════════════════════════════════════════════════╗
+     ║  SECTION 4 — SKILLS                                  ║
+     ╚══════════════════════════════════════════════════════╝ -->
+<section class="skills-section" id="skills" aria-label="Keahlian">
+    <div class="section-container">
+
+        <!-- Section Header -->
+        <div class="section-header fade-in-up">
+            <span class="section-tag">// Keahlian Utama</span>
+            <h2 class="section-title">Keahlian & <span class="gradient-text">Tools</span></h2>
+            <p class="section-subtitle">Game yang dikuasai, software editing video, desain gambar, dan tools menggambar digital.</p>
+        </div>
+
+        <div class="skills-layout">
+
+            <!-- Skill Bars (kiri) -->
+            <div class="skill-bars-wrap fade-in-left">
+                <h3 class="skill-group-title">Tingkat Penguasaan</h3>
+                                    <div class="skill-bar-item"
+                         data-level="95"
+                         data-color="#00f2fe">
+                        <div class="skill-bar-header">
+                            <span class="skill-bar-name">Mobile Legends (EXP / Roamer)</span>
+                            <span class="skill-bar-percent" style="color: #00f2fe;">
+                                95%
+                            </span>
+                        </div>
+                        <div class="skill-bar-track" role="progressbar"
+                             aria-valuenow="95"
+                             aria-valuemin="0"
+                             aria-valuemax="100"
+                             aria-label="Mobile Legends (EXP / Roamer) — 95%">
+                            <div class="skill-bar-fill"
+                                 style="--target-width: 95%; --bar-color: #00f2fe;">
+                                <div class="skill-bar-glow" aria-hidden="true"></div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="skill-bar-item"
+                         data-level="90"
+                         data-color="#7F00FF">
+                        <div class="skill-bar-header">
+                            <span class="skill-bar-name">Video Editing (CapCut / Premiere)</span>
+                            <span class="skill-bar-percent" style="color: #7F00FF;">
+                                90%
+                            </span>
+                        </div>
+                        <div class="skill-bar-track" role="progressbar"
+                             aria-valuenow="90"
+                             aria-valuemin="0"
+                             aria-valuemax="100"
+                             aria-label="Video Editing (CapCut / Premiere) — 90%">
+                            <div class="skill-bar-fill"
+                                 style="--target-width: 90%; --bar-color: #7F00FF;">
+                                <div class="skill-bar-glow" aria-hidden="true"></div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="skill-bar-item"
+                         data-level="88"
+                         data-color="#ff0844">
+                        <div class="skill-bar-header">
+                            <span class="skill-bar-name">Image &amp; Photo Editing</span>
+                            <span class="skill-bar-percent" style="color: #ff0844;">
+                                88%
+                            </span>
+                        </div>
+                        <div class="skill-bar-track" role="progressbar"
+                             aria-valuenow="88"
+                             aria-valuemin="0"
+                             aria-valuemax="100"
+                             aria-label="Image &amp; Photo Editing — 88%">
+                            <div class="skill-bar-fill"
+                                 style="--target-width: 88%; --bar-color: #ff0844;">
+                                <div class="skill-bar-glow" aria-hidden="true"></div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="skill-bar-item"
+                         data-level="85"
+                         data-color="#E100FF">
+                        <div class="skill-bar-header">
+                            <span class="skill-bar-name">Menggambar &amp; Digital Art</span>
+                            <span class="skill-bar-percent" style="color: #E100FF;">
+                                85%
+                            </span>
+                        </div>
+                        <div class="skill-bar-track" role="progressbar"
+                             aria-valuenow="85"
+                             aria-valuemin="0"
+                             aria-valuemax="100"
+                             aria-label="Menggambar &amp; Digital Art — 85%">
+                            <div class="skill-bar-fill"
+                                 style="--target-width: 85%; --bar-color: #E100FF;">
+                                <div class="skill-bar-glow" aria-hidden="true"></div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="skill-bar-item"
+                         data-level="92"
+                         data-color="#38ef7d">
+                        <div class="skill-bar-header">
+                            <span class="skill-bar-name">Gameplay Montage &amp; Cinematic</span>
+                            <span class="skill-bar-percent" style="color: #38ef7d;">
+                                92%
+                            </span>
+                        </div>
+                        <div class="skill-bar-track" role="progressbar"
+                             aria-valuenow="92"
+                             aria-valuemin="0"
+                             aria-valuemax="100"
+                             aria-label="Gameplay Montage &amp; Cinematic — 92%">
+                            <div class="skill-bar-fill"
+                                 style="--target-width: 92%; --bar-color: #38ef7d;">
+                                <div class="skill-bar-glow" aria-hidden="true"></div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="skill-bar-item"
+                         data-level="88"
+                         data-color="#4facfe">
+                        <div class="skill-bar-header">
+                            <span class="skill-bar-name">Thumbnail &amp; Poster Design</span>
+                            <span class="skill-bar-percent" style="color: #4facfe;">
+                                88%
+                            </span>
+                        </div>
+                        <div class="skill-bar-track" role="progressbar"
+                             aria-valuenow="88"
+                             aria-valuemin="0"
+                             aria-valuemax="100"
+                             aria-label="Thumbnail &amp; Poster Design — 88%">
+                            <div class="skill-bar-fill"
+                                 style="--target-width: 88%; --bar-color: #4facfe;">
+                                <div class="skill-bar-glow" aria-hidden="true"></div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="skill-bar-item"
+                         data-level="78"
+                         data-color="#f7971e">
+                        <div class="skill-bar-header">
+                            <span class="skill-bar-name">Game &amp; Web Creation</span>
+                            <span class="skill-bar-percent" style="color: #f7971e;">
+                                78%
+                            </span>
+                        </div>
+                        <div class="skill-bar-track" role="progressbar"
+                             aria-valuenow="78"
+                             aria-valuemin="0"
+                             aria-valuemax="100"
+                             aria-label="Game &amp; Web Creation — 78%">
+                            <div class="skill-bar-fill"
+                                 style="--target-width: 78%; --bar-color: #f7971e;">
+                                <div class="skill-bar-glow" aria-hidden="true"></div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="skill-bar-item"
+                         data-level="90"
+                         data-color="#f093fb">
+                        <div class="skill-bar-header">
+                            <span class="skill-bar-name">Team Shotcalling &amp; Strategy</span>
+                            <span class="skill-bar-percent" style="color: #f093fb;">
+                                90%
+                            </span>
+                        </div>
+                        <div class="skill-bar-track" role="progressbar"
+                             aria-valuenow="90"
+                             aria-valuemin="0"
+                             aria-valuemax="100"
+                             aria-label="Team Shotcalling &amp; Strategy — 90%">
+                            <div class="skill-bar-fill"
+                                 style="--target-width: 90%; --bar-color: #f093fb;">
+                                <div class="skill-bar-glow" aria-hidden="true"></div>
+                            </div>
+                        </div>
+                    </div>
+                            </div><!-- /.skill-bars-wrap -->
+
+            <!-- Tech Tags Cloud (kanan) -->
+            <div class="tech-tags-wrap fade-in-right">
+                <h3 class="skill-group-title">Tags & Software</h3>
+                <div class="tech-tags-cloud" role="list" aria-label="Daftar teknologi">
+                                            <span class="tech-tag" role="listitem"
+                              style="--tag-gradient: linear-gradient(135deg,#7F00FF,#E100FF);">
+                            Mobile Legends                        </span>
+                                            <span class="tech-tag" role="listitem"
+                              style="--tag-gradient: linear-gradient(135deg,#00f2fe,#4facfe);">
+                            EXP Laner                        </span>
+                                            <span class="tech-tag" role="listitem"
+                              style="--tag-gradient: linear-gradient(135deg,#ff0844,#ffb199);">
+                            Roamer                        </span>
+                                            <span class="tech-tag" role="listitem"
+                              style="--tag-gradient: linear-gradient(135deg,#f7971e,#ffd200);">
+                            CapCut                        </span>
+                                            <span class="tech-tag" role="listitem"
+                              style="--tag-gradient: linear-gradient(135deg,#11998e,#38ef7d);">
+                            Adobe Premiere                        </span>
+                                            <span class="tech-tag" role="listitem"
+                              style="--tag-gradient: linear-gradient(135deg,#f093fb,#f5576c);">
+                            After Effects                        </span>
+                                            <span class="tech-tag" role="listitem"
+                              style="--tag-gradient: linear-gradient(135deg,#4facfe,#00f2fe);">
+                            Photoshop                        </span>
+                                            <span class="tech-tag" role="listitem"
+                              style="--tag-gradient: linear-gradient(135deg,#43e97b,#38f9d7);">
+                            Canva                        </span>
+                                            <span class="tech-tag" role="listitem"
+                              style="--tag-gradient: linear-gradient(135deg,#7F00FF,#E100FF);">
+                            Ibis Paint X                        </span>
+                                            <span class="tech-tag" role="listitem"
+                              style="--tag-gradient: linear-gradient(135deg,#00f2fe,#4facfe);">
+                            Digital Drawing                        </span>
+                                            <span class="tech-tag" role="listitem"
+                              style="--tag-gradient: linear-gradient(135deg,#ff0844,#ffb199);">
+                            Gaming Montage                        </span>
+                                            <span class="tech-tag" role="listitem"
+                              style="--tag-gradient: linear-gradient(135deg,#f7971e,#ffd200);">
+                            Graphic Design                        </span>
+                                            <span class="tech-tag" role="listitem"
+                              style="--tag-gradient: linear-gradient(135deg,#11998e,#38ef7d);">
+                            Alight Motion                        </span>
+                                            <span class="tech-tag" role="listitem"
+                              style="--tag-gradient: linear-gradient(135deg,#f093fb,#f5576c);">
+                            Video FX                        </span>
+                                            <span class="tech-tag" role="listitem"
+                              style="--tag-gradient: linear-gradient(135deg,#4facfe,#00f2fe);">
+                            Sketsa Karakter                        </span>
+                                            <span class="tech-tag" role="listitem"
+                              style="--tag-gradient: linear-gradient(135deg,#43e97b,#38f9d7);">
+                            Thumbnail Maker                        </span>
+                                    </div><!-- /.tech-tags-cloud -->
+
+                <!-- Radar Chart Placeholder -->
+                <div class="glass-card radar-card">
+                    <div class="card-glow" style="--glow-color: #E100FF;" aria-hidden="true"></div>
+                    <h4 class="radar-title">Fokus Keahlian</h4>
+                    <div class="radar-legend">
+                                                    <div class="radar-item">
+                                <span class="radar-label">MLBB Gameplay</span>
+                                <div class="radar-bar-track">
+                                    <div class="radar-bar-fill"
+                                         style="--target-width: 95%; --bar-color: #00f2fe;">
+                                    </div>
+                                </div>
+                                <span class="radar-pct" style="color:#00f2fe;">95%</span>
+                            </div>
+                                                    <div class="radar-item">
+                                <span class="radar-label">Video Editing</span>
+                                <div class="radar-bar-track">
+                                    <div class="radar-bar-fill"
+                                         style="--target-width: 90%; --bar-color: #7F00FF;">
+                                    </div>
+                                </div>
+                                <span class="radar-pct" style="color:#7F00FF;">90%</span>
+                            </div>
+                                                    <div class="radar-item">
+                                <span class="radar-label">Image Editing</span>
+                                <div class="radar-bar-track">
+                                    <div class="radar-bar-fill"
+                                         style="--target-width: 88%; --bar-color: #ff0844;">
+                                    </div>
+                                </div>
+                                <span class="radar-pct" style="color:#ff0844;">88%</span>
+                            </div>
+                                                    <div class="radar-item">
+                                <span class="radar-label">Menggambar</span>
+                                <div class="radar-bar-track">
+                                    <div class="radar-bar-fill"
+                                         style="--target-width: 85%; --bar-color: #E100FF;">
+                                    </div>
+                                </div>
+                                <span class="radar-pct" style="color:#E100FF;">85%</span>
+                            </div>
+                                                    <div class="radar-item">
+                                <span class="radar-label">Kreativitas</span>
+                                <div class="radar-bar-track">
+                                    <div class="radar-bar-fill"
+                                         style="--target-width: 92%; --bar-color: #38ef7d;">
+                                    </div>
+                                </div>
+                                <span class="radar-pct" style="color:#38ef7d;">92%</span>
+                            </div>
+                                            </div>
+                </div><!-- /.radar-card -->
+
+            </div><!-- /.tech-tags-wrap -->
+
+        </div><!-- /.skills-layout -->
+
+    </div><!-- /.section-container -->
+</section><!-- /#skills -->
+
+
+<!-- ╔══════════════════════════════════════════════════════╗
+     ║  SECTION 5 — CONTACT & SOCIALS                       ║
+     ╚══════════════════════════════════════════════════════╝ -->
+<section class="contact-section" id="contact" aria-label="Kontak">
+    <div class="section-container">
+
+        <!-- Section Header -->
+        <div class="section-header fade-in-up">
+            <span class="section-tag">// Kontak</span>
+            <h2 class="section-title">Ayo <span class="gradient-text">Terhubung!</span></h2>
+            <p class="section-subtitle">Ada ide, kolaborasi, atau peluang menarik? Saya siap mendengarnya.</p>
+        </div>
+
+        <div class="contact-grid">
+
+            <!-- Info Kontak (kiri) -->
+            <div class="contact-info fade-in-left">
+
+                <div class="glass-card contact-info-card">
+                    <div class="card-glow" style="--glow-color: #00f2fe;" aria-hidden="true"></div>
+                    <h3 class="card-title">
+                        <span class="card-icon">📬</span> Informasi Kontak
+                    </h3>
+
+                    <div class="contact-detail-list">
+                        <a href="mailto:firdausalfis85@gmail.com"
+                           class="contact-detail-item hover-lift"
+                           aria-label="Email: firdausalfis85@gmail.com">
+                            <div class="contact-detail-icon-wrap" style="background: linear-gradient(135deg,#7F00FF,#E100FF);">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
+                            </div>
+                            <div>
+                                <span class="contact-detail-label">Email</span>
+                                <span class="contact-detail-value">firdausalfis85@gmail.com</span>
+                            </div>
+                        </a>
+
+                        <a href="https://wa.me/6287825472329"
+                           target="_blank" rel="noopener noreferrer"
+                           class="contact-detail-item hover-lift"
+                           aria-label="WhatsApp: +62 87825472329">
+                            <div class="contact-detail-icon-wrap" style="background: linear-gradient(135deg,#25D366,#128C7E);">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.117.553 4.104 1.523 5.829L.057 23.428a.75.75 0 00.916.919l5.671-1.473A11.937 11.937 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.75c-1.95 0-3.77-.528-5.33-1.444l-.376-.224-3.909 1.015 1.039-3.795-.245-.389A9.714 9.714 0 012.25 12C2.25 6.615 6.615 2.25 12 2.25S21.75 6.615 21.75 12 17.385 21.75 12 21.75z"/></svg>
+                            </div>
+                            <div>
+                                <span class="contact-detail-label">WhatsApp</span>
+                                <span class="contact-detail-value">+62 87825472329</span>
+                            </div>
+                        </a>
+
+                        <div class="contact-detail-item">
+                            <div class="contact-detail-icon-wrap" style="background: linear-gradient(135deg,#ff0844,#ffb199);">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            </div>
+                            <div>
+                                <span class="contact-detail-label">Lokasi</span>
+                                <span class="contact-detail-value">Gondang, Kandat, Kediri, Jawa Timur, Indonesia</span>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- /.contact-info-card -->
+
+                <!-- Sosial Media Grid -->
+                <div class="social-media-grid" aria-label="Media Sosial">
+                                            <a href="https://github.com/firdausalfis85-eng"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="social-card glass-card hover-lift"
+                           style="--social-gradient: linear-gradient(135deg, #333, #6e5494);"
+                           aria-label="Kunjungi GitHub">
+                            <div class="social-card-icon-wrap" style="background: linear-gradient(135deg, #333, #6e5494);">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>                            </div>
+                            <span class="social-card-name">GitHub</span>
+                            <svg class="social-card-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </a>
+                                            <a href="https://instagram.com/"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="social-card glass-card hover-lift"
+                           style="--social-gradient: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);"
+                           aria-label="Kunjungi Instagram">
+                            <div class="social-card-icon-wrap" style="background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>                            </div>
+                            <span class="social-card-name">Instagram</span>
+                            <svg class="social-card-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </a>
+                                            <a href="https://youtube.com/"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="social-card glass-card hover-lift"
+                           style="--social-gradient: linear-gradient(135deg, #ff0000, #cc0000);"
+                           aria-label="Kunjungi YouTube">
+                            <div class="social-card-icon-wrap" style="background: linear-gradient(135deg, #ff0000, #cc0000);">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M23.495 6.205a3.007 3.007 0 00-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 00.527 6.205a31.247 31.247 0 00-.522 5.805 31.247 31.247 0 00.522 5.783 3.007 3.007 0 002.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 002.088-2.088 31.247 31.247 0 00.5-5.783 31.247 31.247 0 00-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/></svg>                            </div>
+                            <span class="social-card-name">YouTube</span>
+                            <svg class="social-card-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </a>
+                                            <a href="https://tiktok.com/"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="social-card glass-card hover-lift"
+                           style="--social-gradient: linear-gradient(135deg, #000000, #25F4EE, #FE2C55);"
+                           aria-label="Kunjungi TikTok">
+                            <div class="social-card-icon-wrap" style="background: linear-gradient(135deg, #000000, #25F4EE, #FE2C55);">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32"/></svg>                            </div>
+                            <span class="social-card-name">TikTok</span>
+                            <svg class="social-card-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </a>
+                                    </div><!-- /.social-media-grid -->
+
+            </div><!-- /.contact-info -->
+
+            <!-- Form Kontak (kanan) -->
+            <div class="contact-form-wrap fade-in-right">
+                <div class="glass-card contact-form-card">
+                    <div class="card-glow" style="--glow-color: #7F00FF;" aria-hidden="true"></div>
+                    <h3 class="card-title">
+                        <span class="card-icon">✍️</span> Kirim Pesan
+                    </h3>
+                    <p class="form-subtitle">Isi form di bawah — saya biasanya membalas dalam 1×24 jam.</p>
+
+                    <form class="contact-form" id="contactForm" novalidate aria-label="Form Kontak">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="cf-name" class="form-label">Nama Lengkap</label>
+                                <div class="input-wrap">
+                                    <svg class="input-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                                    <input type="text" id="cf-name" name="name" class="form-input" placeholder="Nama Anda" required autocomplete="name" />
+                                </div>
+                                <span class="form-error" role="alert" id="nameError"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="cf-email" class="form-label">Alamat Email</label>
+                                <div class="input-wrap">
+                                    <svg class="input-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
+                                    <input type="email" id="cf-email" name="email" class="form-input" placeholder="email@contoh.com" required autocomplete="email" />
+                                </div>
+                                <span class="form-error" role="alert" id="emailError"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="cf-subject" class="form-label">Subjek</label>
+                            <div class="input-wrap">
+                                <svg class="input-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+                                <input type="text" id="cf-subject" name="subject" class="form-input" placeholder="Topik pesan Anda" required />
+                            </div>
+                            <span class="form-error" role="alert" id="subjectError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="cf-message" class="form-label">Pesan</label>
+                            <div class="input-wrap textarea-wrap">
+                                <svg class="input-icon textarea-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="17" y1="10" x2="3" y2="10"/><line x1="21" y1="6" x2="3" y2="6"/><line x1="21" y1="14" x2="3" y2="14"/><line x1="17" y1="18" x2="3" y2="18"/></svg>
+                                <textarea id="cf-message" name="message" class="form-input form-textarea" placeholder="Tulis pesan Anda di sini..." rows="5" required></textarea>
+                            </div>
+                            <span class="form-error" role="alert" id="messageError"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-full" id="submitBtn" aria-label="Kirim Pesan">
+                            <span class="btn-text">Kirim Pesan</span>
+                            <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                            <span class="btn-loader" aria-hidden="true"></span>
+                        </button>
+
+                        <!-- Success / Error Message -->
+                        <div class="form-feedback" id="formFeedback" role="alert" aria-live="polite"></div>
+
+                    </form><!-- /.contact-form -->
+                </div><!-- /.contact-form-card -->
+            </div><!-- /.contact-form-wrap -->
+
+        </div><!-- /.contact-grid -->
+
+    </div><!-- /.section-container -->
+</section><!-- /#contact -->
+
+
+    </main><!-- /#main-content -->
+
+    <!-- ══════════════ FOOTER ══════════════ -->
+    <footer class="site-footer" role="contentinfo">
+        <div class="footer-container">
+
+            <!-- Footer Brand -->
+            <div class="footer-brand">
+                <a href="#hero" class="footer-logo">
+                    <span class="logo-bracket">&lt;</span>
+                    <span class="logo-text gradient-text">Raska Zaidan Firas Alfis Firdaus</span>
+                    <span class="logo-bracket">/&gt;</span>
+                </a>
+                <p class="footer-bio">Pro Player Mobile Legends, Video &amp; Image Editor, Digital Artist</p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-links" role="navigation" aria-label="Footer Navigation">
+                <h3 class="footer-heading">Quick Links</h3>
+                <ul role="list">
+                    <li><a href="#hero"     class="footer-link">Home</a></li>
+                    <li><a href="#about"    class="footer-link">About</a></li>
+                    <li><a href="#projects" class="footer-link">Projects</a></li>
+                    <li><a href="#skills"   class="footer-link">Skills</a></li>
+                    <li><a href="#contact"  class="footer-link">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Sosial Media -->
+            <div class="footer-socials">
+                <h3 class="footer-heading">Connect</h3>
+                <div class="footer-social-grid">
+                                            <a href="https://github.com/firdausalfis85-eng"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="footer-social-link"
+                           aria-label="GitHub"
+                           style="background: linear-gradient(135deg, #333, #6e5494);">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>                            <span>GitHub</span>
+                        </a>
+                                            <a href="https://instagram.com/"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="footer-social-link"
+                           aria-label="Instagram"
+                           style="background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>                            <span>Instagram</span>
+                        </a>
+                                            <a href="https://youtube.com/"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="footer-social-link"
+                           aria-label="YouTube"
+                           style="background: linear-gradient(135deg, #ff0000, #cc0000);">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M23.495 6.205a3.007 3.007 0 00-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 00.527 6.205a31.247 31.247 0 00-.522 5.805 31.247 31.247 0 00.522 5.783 3.007 3.007 0 002.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 002.088-2.088 31.247 31.247 0 00.5-5.783 31.247 31.247 0 00-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/></svg>                            <span>YouTube</span>
+                        </a>
+                                            <a href="https://tiktok.com/"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="footer-social-link"
+                           aria-label="TikTok"
+                           style="background: linear-gradient(135deg, #000000, #25F4EE, #FE2C55);">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32"/></svg>                            <span>TikTok</span>
+                        </a>
+                                    </div>
+            </div>
+
+        </div><!-- /.footer-container -->
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="footer-bottom-inner">
+                <p class="footer-copy">
+                    &copy; 2026                    <span class="gradient-text">Raska Zaidan Firas Alfis Firdaus</span>.
+                    Dibuat dengan <span class="heart" aria-label="cinta">❤️</span> menggunakan PHP Murni.
+                </p>
+                <p class="footer-credit">
+                    Tema: <span class="gradient-text">Vibrant Neo-Modern</span>
+                </p>
+            </div>
+        </div>
+
+    </footer><!-- /.site-footer -->
+
+    <!-- Scroll-to-top button -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll ke atas">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M18 15l-6-6-6 6"/>
+        </svg>
+    </button>
+
+    <!-- Main JS -->
+    <script src="assets/js/main.js?v=1788224205" defer></script>
+
+</body>
+</html>
